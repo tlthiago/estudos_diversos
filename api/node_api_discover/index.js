@@ -16,6 +16,18 @@ let users = [
     avatar: "https://avatars.githubusercontent.com/u/70245552?v=4",
     city: "Belo Horizonte",
   },
+  {
+    id: 2,
+    name: "Paulo Gonçalves",
+    avatar: "https://picsum.photos/200/300",
+    city: "Belo Horizonte",
+  },
+  {
+    id: 3,
+    name: "Paulo Gonçalves",
+    avatar: "https://picsum.photos/200/300",
+    city: "Belo Horizonte",
+  }
 ];
 
 app.route("/api").get((req, res) =>
